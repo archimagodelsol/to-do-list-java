@@ -18,6 +18,14 @@ public class Tarea {
 
     // Metodos
 
+    public void boolean marcarCompletada(){
+        this.completada = true;
+    }
+
+    public void boolean marcarPendiente(){
+        this.completada = false;
+    }
+
     // Getters
    public String getTitulo(){
     return titulo;
@@ -31,7 +39,7 @@ public class Tarea {
         return prioridad;
     }
 
-    public String getCompletada(){
+    public boolean isCompletada(){
         return completada;
     }
 
