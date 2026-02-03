@@ -29,11 +29,11 @@ public class Tarea {
     public String toString(){
         String estatus;
       if(completada){
-        estatus = "[✓] " + titulo + " - Prioridad: " + prioridad;
+        estatus = "[*] " + titulo + " - Prioridad: " + prioridad;
         return estatus;
       }
       else{
-        estatus = "[ ] " + titulo + " - Prioridad: " + prioridad;
+        estatus = "[X] " + titulo + " - Prioridad: " + prioridad;
         return estatus;
       }
     }
