@@ -9,8 +9,8 @@ public class Tarea {
 
     // Constructor
 
-    public Tarea(String tarea, String descripcion, String prioridad){
-        this.tarea = tarea;
+    public Tarea(String titulo, String descripcion, String prioridad){
+        this.titulo = titulo;
         this.descripcion = descripcion;
         this.prioridad = prioridad;
         this.completada = false;
@@ -18,12 +18,24 @@ public class Tarea {
 
     // Metodos
 
-    public void boolean marcarCompletada(){
+    public void marcarCompletada(){
         this.completada = true;
     }
 
-    public void boolean marcarPendiente(){
+    public void marcarPendiente(){
         this.completada = false;
+    }
+    @Override
+    public String toString(){
+        String estatus;
+      if(completada){
+        estatus = "[✓] " + titulo + " - Prioridad: " + prioridad;
+        return estatus;
+      }
+      else{
+        estatus = "[ ] " + titulo + " - Prioridad: " + prioridad;
+        return estatus;
+      }
     }
 
     // Getters
@@ -43,7 +55,7 @@ public class Tarea {
         return completada;
     }
 
-    //
+    // Setters
     public void setTitulo(String titulo){
         this.titulo = titulo;
     }
