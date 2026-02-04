@@ -33,3 +33,10 @@ El proyecto está desarrollado utilizando:
 > **Nota importante:** Este es mi primer proyecto, mas que nada para adentrarme en la POO
 > Si por alguna razon ves esto y tienes alguna sugerencia , no dudes en abrir un [issue](https://github.com/archimagodelsol/to-do-list-java/issues).
 
+
+## 
+
+Clona este repositorio:
+   ```bash
+   git clone https://github.com/archimagodelsol/to-do-list-java.git
+   cd to-do-list-java
