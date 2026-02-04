@@ -17,7 +17,6 @@ Este es un proyecto para la gestión de tareas pendientes con funcionalidad bás
 
 El proyecto está desarrollado utilizando:
 
-- **Java**: el lenguaje principal del proyecto, ideal para aplicaciones basadas en objetos.
-- Frameworks/librerías (si usas alguno, indícalo aquí).
-- Herramientas de compilación y gestión de dependencias (por ejemplo, Maven o Gradle, si es el caso).
+- **Java**: el lenguaje principal
+
 
