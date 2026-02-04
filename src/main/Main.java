@@ -1,10 +1,8 @@
 package main;
-import java.util.Scanner;
-import modelo.Tarea;
-import modelo.ListaDeTareas;
+import gui.ToDoAppGUI;
 public class Main {
   public static void main(String[] args){
-    Scanner lector = new Scanner(System.in);
+    new ToDoAppGUI();
       
 
   }
