@@ -20,3 +20,8 @@ El proyecto está desarrollado utilizando:
 - **Java**: el lenguaje principal
 
 
+# ⚠️ ¡Atención! ⚠️
+
+> **Nota importante:** Este es mi primer proyecto, mas que nada para adentrarme en la POO
+> Si por alguna razon ves esto y tienes alguna sugerencia , no dudes en abrir un [issue](https://github.com/archimagodelsol/to-do-list-java/issues).
+
