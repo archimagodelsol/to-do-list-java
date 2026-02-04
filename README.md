@@ -18,6 +18,14 @@ Este es un proyecto para la gestión de tareas pendientes con funcionalidad bás
 El proyecto está desarrollado utilizando:
 
 - **Java**: el lenguaje principal
+- **Biiotecas/APIs**: Swing para la interfaz grafica, AWT Para componentes graficos basicos, Java Collections Framework para gestión de colecciones.
+- **Editor/IDD**: Visual Studio Code
+
+## Estructura 
+- modelo: Logica(Tarea,ListaDeTareas)
+- gui: Interfaz grafica (ToDoAppGUI)
+
+
 
 
 # ⚠️ ¡Atención! ⚠️
